@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Sonnets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<!-- Links -->
+<style>
+*{
+  font-family: 'Lora', cursive;
+  font-size: 15pt;
+}
+
+.ParallaxImage {
+  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+<!--
+.bg2 {
+  background-image: url("-");
+}
+-->
+.bg3 {
+  background-image: url(bg2.png);
+  
+  width: 100%;
+
+}
+
+
+.ParallaxContent {
+  background: none repeat scroll 0 0 rgba(15, 26, 34,0.5); ; 
+  padding: 42px 0;
+  align-items:center;
+} 
+.ParallaxContent h2{
+	color:#0F1A25;
+	align-items:center;
+	
+}
+
+.ParallaxVideo{ 
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+}
+
+.ParallaxVideo video{ 
+  min-width: 100%;
+  
+  z-index: -1000;
+  margin-bottom: -10px;
+  
+}        
+
+.ParallaxVideo h1 {
+  color: #0F1A25;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+.container {
+  max-width: 1200px; 
+  padding: 5px;
+  color: white;
+}
+
+.sonnet {
+ background-image: url(High-Res-Crumpled-Brown-Paper-Texture1.jpg);
+ color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+  background-color: #0F1A25;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+}
+a:hover, a:active {
+  color: #ffcc00;
+  font-size: 11pt;
+        }
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Lora', cursive;
+}
+        
+h3, h2 {
+  font-family: 'Lora', cursive;
+  
+  
+  text-align: center;
+  background: transparent;
+}
+
+h2 {
+  text-align: center;
+  background-color: black;
+}
+
+@media only screen and (max-width:1600px) {
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+.y img {
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+	
+  }
+  table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:775px) {
+  .header-links {
+    width: 80%;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+	
+  }
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .header-links, .container, .col-sm-3 img {
+  width: 100%;
+  max-width: 200%;
+  
+}
+ body {
+   background-position: -650px -0px;
+   background-size: 2500px 3300px;
+   
+  }
+}
+
+video {
+width: 100%;
+height: auto;
+}
+</style>
+<body>
+<header>
+  <div class="row">
+    <div class="col-xl-">
+    <img class="hogwarts-text-1" src="hogwartslogo.png" height="50" width="70" alt="">
+    <img class="hogwarts-text-1" src="Academics.png" height="100" width="200" alt="">
+    </div>
+</div>
+    <nav class="header-links navbar-expand-sm">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="About.html">About</a></li>
+        <li class="nav-item"><a href="Academics.html">Academics</a></li>
+        <li class="nav-item"><a href="Biology-Subpage.html">Biology Laboratory</a></li>
+        <li class="nav-item"><a href="English-Subpage.html">English Sonnets</a></li>
+        <li class="nav-item"><a href="Extra-Curriculars.html">Extra-Curriculars</a></li>
+        <li class="nav-item"><a href="Contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+    <source src="bg1.mp4" type="video/mp4">
+</video>
+</div>
+<div class="ParallaxImage bg3">
+<div class="container">
+    <br><br><br><br><br><br>
+<div class="row center">
+<h2 class="English-subject">Petrarchan Sonnets</h2>
+<div class="col-sm-4">
+    <div class="border border-4">
+        <h2 class="sonnet">In kingdoms where music shows its strong spell<br>
+            A song awaken, its name Incomplete<br>
+            My sad emotions on this vocal swell<br>
+            Each piece longs love's burning feat<br>
+            
+            
+            A deep desire rises, passionate in scope,<br>
+            of this awful tune, in the shadows pressed<br>
+            A plea that echoes through love's passionate slope<br>
+            Fill my spaces with hope, heartfully expressed<br>
+            
+            
+            In these verses sonnet's intertwine,<br>
+            Incomplete tales find solace in the rhyme,<br>
+            with hope, the spaces devoid and align<br>
+            A taste of love that stands time.<br>
+            
+            let the song play, my voice be heard<br>
+            Fill my spaces , but by hope conferred.<br></h2>
+        <h3>"Boys In The Backstreet: Alone and Lonely"</h3>
+            <h3>
+            By Tristan Catap
+            </h3>
+    </div>
+</div>
+<div class="col-sm-4">
+    <div class="border border-4">
+        <h2 class="sonnet">In a world without fault, what is my purpose as someone flawed?<br>
+            Am I nothing but a hindrance while my gentle soul rotted away?<br>
+            As if all my past mistakes have led me astray<br>
+            And shattered my wings as if it's getting clawed.<br>
+            The ideal me, now small fragments of feelings thats sawed<br>
+            I had a good life, yet my hands chased hard dreams and didnt stay.<br>
+            If only I knew my chances of achieving then are quite gray.<br>
+            And now, I must endure everything I started, with hope outlawed.<br>
+            
+            But in these moments of gloom, I can also think of improvements.<br>
+            I may have lots of flaws but I'm not full of them.<br>
+            I can still save myself from becoming forever gloomy.<br>
+            My whole life I've kept myself in a cage of concealments,<br>
+            But when I accept my mistakes and who I am<br>
+            I can escape my cage and find my perfect wings to fly freely.<br></h2>
+        <h3>"My Broken Self in a Perfect World"</h3>
+            <h3>
+            By Joshua Chua
+            </h3>
+    </div>
+</div>
+<div class="col-sm-4">
+    <div class="border border-4">
+        <h2 class="sonnet">Sealed the final chapter of lif's beautiful memories with you<br> 
+            Recollections of a life's beloved years<br>
+            Father had always told me to hold back from my sorrowful tears<br>
+            Yet Mother, each blink brings a tear, as sorrow flows through<br>
+            
+            
+            Shattered to pieces, I lay here weeping in sorrow, yet I knew<br>
+            A life lived with passion, is a life that endears <br>
+            A broken heart was once a heart that felt love through the years<br>
+            I wish to see the world through your eyes,  from your rose-colored view<br> 
+            
+            
+            A darling from the heavens, in the shape of my mother<br>
+            When I was at my lowest, you raised me high<br>
+            You saw the individual who I grew to be, with a pure heart and mind<br>
+            Spread your wings and take flight, as I know you like no other<br>
+            "Hallelujah", He said as He took you back to His kingdom in the sky<br>
+            "You've arrived"<br></h2>
+        <h3>"Heaven's Darling"</h3>
+            <h3>
+            By Andrea Martinez
+            </h3>
+    </div>
+</div>
+</div>
+<div class="row center">
+    <h2 class="English-subject">Shakespearean Sonnets</h2>
+    <div class="col-sm-4">
+        <div class="border border-4">
+            <h2 class="sonnet">Nearby shadows cast on a lonely tune<br>
+                The Boys echoe to a sober song<br>
+                Loneliness that remains, dark and in the wrong<br>
+                A heart with a longing melody dune<br>
+                
+                The words, like whispers of a distant moon<br>
+                Reveals tales of love that's gone and long<br>
+                A soreness of that harmony playing like pong<br>
+                 A Heart left stranded, now gone too soon<br>
+                
+                Yet in this soft hymn, shows a common chord so full<br>
+                Something meaningful that spans the human soul<br>
+                A touching hymn that speaks of a love soft like wool<br>
+                
+                For loneliness, in unity, finds it as a big hole<br>
+                As the men in the Backstreet's sing loud, adored and full<br> 
+                our shared solitude that shows meaning and an endless goal<br></h2>
+            <h3>"Fill my spaces with hope"</h3>
+                <h3>
+                By Tristan Catap
+                </h3>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="border border-4">
+            <h2 class="sonnet">My feelings are bleak, with thoughts never-ending.<br>
+                It's just not the same without them with me.<br>
+                A day of joy becomes one of lamenting,<br>
+                The death of memories we all share with glee.<br>
+
+                Replaying old thoughts so I can rewind,<br>
+                to times I didn't despise myself so often.<br>
+                The only thing keeping me together was them by my side.<br>
+                Oh, what can I do to stop being so solemn?<br>
+                
+                And how do I express my sorrow,<br>
+                when I don't let myself speak and instead sink?<br>
+                Maybe saying what our stuttering voices felt, concisely and slow<br>
+                Will lead to the past of no worries we'd all like to think.<br>
+                
+                And we can carry on all our dreams,<br>
+                Without worry and gloom by any means.<br></h2>
+            <h3>"Emptiness without them"</h3>
+                <h3>
+                By Joshua Chua
+                </h3>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="border border-4">
+            <h2 class="sonnet">On Sundays, I lay in melancholic slumber, under the sky's tender<br>
+                It seems as though I had entombed my faith with you<br>
+                I cry to the Divine, uncertain of my faith, as I beg in complete surrender<br>
+                As I'm at a loss of what more I can do<br>
+                
+                I'm still clinging to memories of what is no longer there, refusing to let go<br>
+                I can't bear to bid farewell, as this goodbye is for eternity<br>
+                Six feet between us has never felt impossibly distant, yet you're now a star aglow<br>
+                Amidst the starry skies and fading embers, I find myself alone in solitude and uncertainty<br>
+                
+                The pain is overwhelming, for reasons too many to tell<br>
+                You've captured my essence and the very core of who I am too.<br>
+                Left me with mere remnants, and the rest in pieces fell.<br>
+                In nostalgic moments spent with you,<br>
+                
+                A 20-dollar bill in the box, its value grew<br>
+                Even if left penniless with just 20, at least it'd remind me of you...<br></h2>
+            <h3>"Love, Loss, and Remembrance"</h3>
+                <h3>
+                By Andrea Martinez
+                </h3>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

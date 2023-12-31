@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<!-- Links -->
+<style>
+*{
+  font-family: 'Lora', cursive;
+  font-size: 15pt;
+}
+
+.ParallaxImage {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+<!--
+.bg2 {
+  background-image: url("-");
+}
+-->
+.bg3 {
+  background-image: url(bg2.png);
+  width: 100%;
+
+}
+
+
+.ParallaxContent {
+  background: none repeat scroll 0 0 rgba(15, 26, 34,0.5); ; 
+  padding: 42px 0;
+  align-items:center;
+} 
+.ParallaxContent h2{
+	color:#0F1A25;
+	align-items:center;
+	
+}
+
+.ParallaxVideo{ 
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+}
+
+.ParallaxVideo video{ 
+  min-width: 100%;
+  z-index: -1000;
+  margin-bottom: -10px;
+  
+}        
+
+.ParallaxVideo h1 {
+  color: #0F1A25;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+.container {
+  max-width: 1200px; 
+  padding: 5px;
+  color: white;
+}
+
+.col-sm-3 img {
+ display:flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+  background-color: #0F1A25;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+}
+a:hover, a:active {
+  color: #ffcc00;
+  font-size: 11pt;
+        }
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Lora', cursive;
+}
+        
+h3, h2 {
+  font-family: 'Lora', cursive;
+  
+  text-align: center;
+  background: transparent;
+}
+
+h2 {
+  text-align: center;
+  background-color: black;
+}
+
+@media only screen and (max-width:1600px) {
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+.y img {
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:775px) {
+  .header-links {
+    width: 80%;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .header-links, .container, .col-sm-3 img {
+  width: 100%;
+  max-width: 200%;
+}
+ body {
+   background-position: -650px -0px;
+   background-size: 2500px 3300px;
+  }
+}
+
+video {
+width: 100%;
+height: auto;
+}
+</style>
+<body>
+<header>
+  <div class="row">
+    <div class="col-xl-">
+    <img class="hogwarts-text-1" src="hogwartslogo.png" height="50" width="70" alt="">
+    <img class="hogwarts-text-1" src="About.png" height="100" width="200" alt="">
+    </div>
+</div>
+    <nav class="header-links navbar-expand-sm">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="About.html">About</a></li>
+        <li class="nav-item"><a href="Academics.html">Academics</a></li>
+        <li class="nav-item"><a href="Extra-Curriculars.html">Extra-Curriculars</a></li>
+        <li class="nav-item"><a href="Contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+    <source src="bg1.mp4" type="video/mp4">
+</video>
+</div>
+<div class="ParallaxImage bg3">
+  <div class="container">
+    <br><br><br><br><br><br>
+    <div class="row center">
+    <h2 class="houses-title">Houses</h2>
+    <div class="col-sm-3">
+        <div class="border border-4">
+            <img src="5.png" height="300" width="300" alt="">
+            <img src="Gryffindor.png" alt="" height="100" width="300">
+                <h3>
+                "You might belong in Gryffindor,<br>
+                Where dwell the brave at heart,<br>
+                Their daring, nerve, and chivalry <br>
+                Set Gryffindors apart"
+                </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="border border-4">
+            <img src="4.png" height="300" width="300" alt="">
+            <img src="Hufflepuff.png" alt="" height="100" width="300">
+            <h3>
+                "You might belong in Hufflepuff,<br>
+                Where they are just and loyal, <br>
+                Those patient Hufflepuffs are true,<br>
+                And unafraid of toil."</h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="border border-4">
+            <img src="2.png" height="300" width="300" alt="">
+            <img src="Ravenclaw.png" alt="" height="100" width="300">
+            <h3>
+                "Or yet in wise old Ravenclaw,<br>
+                If you've a ready mind,<br>
+                Where those of wit and learning,<br>
+                Will always find their kind." <br>
+                </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="border border-4">
+            <img src="3.png" height="300" width="300" alt="">
+            <img src="Slytherin.png" alt="" height="100" width="300">
+            <h3>
+                "Or perhaps in Slytherin,<br>
+                You'll make your real friends, <br>
+                Those cunning folk use any means, <br>
+                To achieve their ends."</h3>
+        </div>
+    </div>
+</div>
+<div class="row center">
+<h2 class="teachers-title">Well Known Teachers</h2>
+<div class="col-sm-6">
+    <div class="border border-4">
+        <img src="Rubeushagrid.PNG.webp" width="570" alt="">
+        <h2>Rubeus Hagrid</h2>
+            <h3>
+            Professor of the subject Care of Magical Creatures
+            </h3>
+    </div>
+</div>
+<div class="col-sm-6">
+    <div class="border border-4">
+        <img src="Albus_Dumbledore_29_3.webp" width="570" alt="">
+        <h2>Albus Dumbeldore</h2>
+            <h3>
+            Professor of the subject Defense Against the Dark Arts
+            </h3>
+    </div>
+</div>
+</div>
+<div class="row center">
+<div class="col-sm-6">
+    <div class="border border-4">
+        <img src="Severus_Snape.webp" width="570" alt="">
+        <h2>Severus Snape</h2>
+            <h3>
+            Professor of the subject Potion Making
+            </h3>
+    </div>
+</div>
+<div class="col-sm-6">
+    <div class="border border-4">
+        <img src="ProfessorMcGonagall-HBP.webp" width="570" alt="">
+        <h2>Minerva McGonagall</h2>
+            <h3>
+            Professor of the subject Transfiguration
+            </h3>
+    </div>
+</div>
+</div>
+<div class="row center">
+<h2 class="history-title">History</h2>
+<div class="col-md">
+    <div class="border border-4">
+        <img src="hogwartsimg.jpg" alt="">
+        <h2>Founding days</h2>
+            <h3>
+                In the 10'th century, four powerful wizards and witches created Hogwarts Academy. These 4 founders are Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin.
+            </h3>
+    </div>
+</div>
+</div>
+<div class="row center">
+<div class="col-sm-6">
+    <div class="border border-4">
+        <img src="astronomy%20tower.png" alt="">
+        <h2>Many years later...</h2>
+            <h3>
+            At some point, pressure from Slytherin to only admit pure-blooded wizards started to greatly affect the other founders.
+            </h3>
+    </div>
+</div>
+<div class="col-sm-6">
+    <div class="border border-4">
+        <img src="Harry-potter1-voldemort.webp" alt="">
+        <h2>Links to Lord Voldemort</h2>
+            <h3>
+            Later on, each of the founders would be linked with Lord Voldemort in some way due to him using things that belong to the founders for his Horcruxes.
+            </h3>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

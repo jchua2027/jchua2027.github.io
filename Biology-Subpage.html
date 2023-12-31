@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Laboratory</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<!-- Links -->
+<style>
+*{
+  font-family: 'Lora', cursive;
+  font-size: 15pt;
+}
+
+.ParallaxImage {
+  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+<!--
+.bg2 {
+  background-image: url("-");
+}
+-->
+.bg3 {
+  background-image: url(bg2.png);
+  
+  width: 100%;
+
+}
+
+
+.ParallaxContent {
+  background: none repeat scroll 0 0 rgba(15, 26, 34,0.5); ; 
+  padding: 42px 0;
+  align-items:center;
+} 
+.ParallaxContent h2{
+	color:#0F1A25;
+	align-items:center;
+	
+}
+
+.ParallaxVideo{ 
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+}
+
+.ParallaxVideo video{ 
+  min-width: 100%;
+  z-index: -1000;
+  margin-bottom: -10px;
+  
+}        
+
+.ParallaxVideo h1 {
+  color: #0F1A25;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+.container {
+  max-width: 1200px; 
+  padding: 5px;
+  color: white;
+}
+
+.col-sm-3 img {
+ display:flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+  background-color: #0F1A25;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+}
+a:hover, a:active {
+  color: #ffcc00;
+  font-size: 11pt;
+        }
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Lora', cursive;
+}
+        
+h3, h2 {
+  font-family: 'Lora', cursive;
+  
+  
+  text-align: center;
+  background: transparent;
+}
+
+h2 {
+  text-align: center;
+  background-color: black;
+}
+
+@media only screen and (max-width:1600px) {
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+.y img {
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+	
+  }
+  table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:775px) {
+  .header-links {
+    width: 80%;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+	
+  }
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .header-links, .container, .col-sm-3 img {
+  width: 100%;
+  max-width: 200%;
+  
+}
+ body {
+   background-position: -650px -0px;
+   background-size: 2500px 3300px;
+   
+  }
+}
+
+video {
+width: 100%;
+height: auto;
+}
+</style>
+<body>
+<header>
+  <div class="row">
+    <div class="col-xl-">
+    <img class="hogwarts-text-1" src="hogwartslogo.png" height="50" width="70" alt="">
+    <img class="hogwarts-text-1" src="Academics.png" height="100" width="200" alt="">
+    </div>
+</div>
+    <nav class="header-links navbar-expand-sm">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="About.html">About</a></li>
+        <li class="nav-item"><a href="Academics.html">Academics</a></li>
+        <li class="nav-item"><a href="Biology-Subpage.html">Biology Laboratory</a></li>
+        <li class="nav-item"><a href="English-Subpage.html">English Sonnets</a></li>
+        <li class="nav-item"><a href="Extra-Curriculars.html">Extra-Curriculars</a></li>
+        <li class="nav-item"><a href="Contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+    <source src="bg1.mp4" type="video/mp4">
+</video>
+</div>
+<div class="ParallaxImage bg3">
+    <div class="container">
+        <br><br><br><br>
+    <div class="row center">
+    <div class="text-center">
+    <h2 class="Biology-subject">Biology Digestive System Simulation Lab</h2>
+    <h2 class="Section-text">Introduction</h2>
+    <div class="col-md-">
+        <div class="border border-4">
+            <img src="StartingSetup1.jpg" class="images" height="900" width="900" alt="">
+            <h6><i>Figure 1: Our starting Setup for this Lab Activity</i></h6>
+            <h4>This laboratory page aims to enhance one's understanding of the digestive system, its function, and the processes involved in digestion. Understanding the digestive system is essential as it helps one better understand how one's body processes one's food which helps in maintaining good health and a balanced diet. It also provides a basis for understanding how various digestive illnesses and disorders are caused and how to prevent them. The simulation activity helps one understand the digestive system by helping one visualize how different organs function and what happens if a certain organ is removed. For instance, removing the gallbladder will cause the body to have difficulty digesting fats as it is the organ that stores bile, a fluid that aids in the digestion of fat, which means one should limit the consumption of fatty food. Simulation of the digestive system also helps one understand what would happen if the sequence of processes is altered and enables one to manipulate the model to understand the organ and its parts.</h4>
+        </div>
+    </div><!--column divs-->
+    </div>
+    </div><!--row divs-->
+    <div class="row center">
+    <h2 class="Section-text">Food Processing: Crushing Stage</h2>
+    <div class="col-sm-6">
+        <div class="border border-4">
+            <img src="FoodProcessing5.jpg" class="images" height="900" width="900" alt="">
+            <h6><i>Figure 2: Our starting Setup for the Crushing Stage</i></h6>
+            <h4>When we put the bananas and crackers in the zip lock, the food we put in seems to represent our food bolus. Once it goes out of the esophagus, it will fall into the stomach to start the digestion stage.</h4>
+        </div>
+    </div><!--column divs-->
+    <div class="col-sm-6">
+        <div class="border border-4">
+            <img src="FoodProcessing1.jpg" class="images" height="900" width="900" alt="">
+            <h6><i>Figure 3: Adding water to the Setup</i></h6>
+            <h4>The water acts as the gastric juices that breaks down the food bolus. We started noticing this when the banana and crackers were becoming more mushier and easier to break apart when the water was poured in, like the hydrochloric acid in the stomach.</h4>
+        </div>
+    </div><!--column divs-->
+    </div><!--row divs-->
+    <div class="row center">
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="FoodProcessing4.jpg" class="images" height="900" width="900" alt="">
+                <h6><i>Figure 3: Starting the Crushing Stage</i></h6>
+                <h4>The zip-locked bag represents the stomach itself. We noticed this because of the banana, crackers, and water, which have similar functions to the stomach.</h4>
+            </div>
+        </div><!--column divs-->
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="FoodProcessing2.jpg" class="images" height="900" width="900" alt="">
+                <h6><i>Figure 4: The food after the Crushing Stage</i></h6>
+                <h4>The crushing motion on the banana and crackers is like the stomach's churning motion, this is the part where the food bolus' proteins will be digested and turned into chyme.</h4>
+            </div>
+        </div><!--column divs-->
+        </div><!--row divs-->
+        <div class="row center">
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="FoodProcessing3.jpg" class="images" height="600" width="900" alt="">
+                <h6><i>Figure 5: Adding juice in the ziplock bag</i></h6>
+                <h4> The addition of orange juice represents the gastric juices getting more concentrated to digest more easily.</h4>
+            </div>
+        </div><!--column divs-->
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="Stomach%20Biomolecules.png" class="images" height="900" width="900" alt="">
+                <h6><i>Figure 6: Biomolecule digestions inside the stomach</i></h6>
+                <h4>The biomolecule components inside the food could be digested carbohydrates like smaller polysaccharides and disaccharides, and 
+                    protein being digested into small polypeptides due to pepsin in the stomach.</h4>
+            </div>
+    </div><!--column divs-->
+    </div><!--row divs-->
+        <h2 class="Section-text">Food Processing: Transfer Stage</h2>
+        <div class="row center">
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="SimulatingElimination1.jpg" class="images" height="900" width="1270" alt="">
+    
+        <h6><i>Figure 7: Starting setup for the Transfer Stage</i></h6>
+                <h4>After crushing the meal in the zip lock, it was transferred to an old sock. It filtered the entire liquid mixture, and we used another cup to force all of the liquid out of the sock until only the somewhat solid stuff remained. The liquid running out of the sock reflects nutrient absorption in the small intestine, which is represented by the sock.</h4>
+            </div>
+        </div><!--column divs-->
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="SimulatingElimination9.jpg" class="images" height="900" width="1270" alt="">
+    
+        <h6><i>Figure 8: Simulating the Elimination Stage</i></h6>
+                <h4>The liquid in the dish depicts the bloodstream, which is where all of the liquid ended up. The solid substance of the sock now represents feces, and the sock represents the large intestine. Finally, the solid substance is pushed out of the cup hole. This simulates feces exiting the digestive tract or elimination. </h4>
+            </div>
+        </div><!--column divs-->
+        </div><!--row divs-->
+        <h2 class="Section-text">Simulation of Absorption</h2>
+        <div class="row center">
+            <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="TissueOnWater4.jpg" class="images" height="900" width="900" alt="">
+        <h6><i>Figure 9: Absorption Starting Setup</i></h6>
+                <h4>The paper towel that absorbed the most water is the one with 4 folded layers. This could be because it has more layers which could give it more support when absorbing.</h4>
+            </div>
+        </div><!--column divs-->
+        <div class="col-sm-6">
+            <div class="border border-4">
+                <img src="TissueOnWater2.jpg" class="images" height="900" width="900" alt="">
+                <h6><i>Figure 10: Preparing water to the Setup</i></h6>
+                <h4>The layers of tissue is similar to the large intestine and how their layers absorb water from the chyme inside our intesine.</h4>
+            </div>
+        </div><!--column divs-->
+        </div><!--row divs-->
+        <h2 class="Section-text">Simulation of Bile Action</h2>
+        <div class="row center">
+            <div class="col-md">
+            <div class="border border-4">
+                <img src="TissueOnWater1.jpg" class="images" height="900" width="1270" alt="">
+        <h6><i>Figure 11: Adding the tissue layers to the graduated cylinders</i></h6>
+                <h4>When we put the bananas and crackers in the zip lock, the food we put in seems to represent our food bolus. Once it goes out of the esophagus, it will fall into the stomach to start the digestion stage.</h4>
+            </div>
+        </div><!--column divs-->
+        </div><!--row divs-->
+        <h2 class="Section-text">Conclusion and Reflection</h2>
+        <div class="row center">
+            <div class="col-md">
+            <div class="border border-4">
+                <img src="StartingSetup2.jpg" class="images" height="900" width="1270" alt="">
+        <h6><i>Figure 12: Another view of our Starting Setup</i></h6>
+                <h4>As we conclude our experiment, we have learned lots of things from both studying and simulating the digestive system. With our knowledge from both the classroom and the lab, we have a great knowledge of when food is digested and how it's broken into small pieces and converted into stools. Now I know that when I eat food, there are very complex processes inside us that filter and convert food into glucose, amino acids, fatty acids, and more that give nutrients to the human body. 
+                    Other than that, there are enzymes like pepsin that turn proteins into smaller particles that go into the small intestine which leads them to the anus. And when times comes, these small particles become stool ending the process. As we reflect on the digestive system, I realize that when we eat food, there are extraordinary processes inside our body that we don't think of all the time. But now with our great knowledge of things, we can appreciate how amazing these things are. 
+                </h4>
+            </div>
+        </div><!--column divs-->
+        </div><!--row divs-->
+    </div><!--container div-->
+</div>
+</body>
+</html>
