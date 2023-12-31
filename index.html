@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<!-- Links -->
+<style>
+*{
+  font-family: 'Lora', cursive;
+  font-size: 15pt;
+}
+
+.ParallaxImage {
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+<!--
+.bg2 {
+  background-image: url("-");
+}
+-->
+.bg3 {
+  background-image: url(bg2.png);
+  background-repeat: repeat;
+}
+
+
+.ParallaxContent {
+  background: none repeat scroll 0 0 rgba(15, 26, 34,0.5); ; 
+  padding: 42px 0;
+  align-items:center;
+} 
+.ParallaxContent h2{
+	color:#0F1A25;
+	align-items:center;
+	
+}
+
+.ParallaxVideo{ 
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+  position: relative;
+  z-index: 10;
+}
+
+.ParallaxVideo video{ 
+  
+  z-index: -1000;
+  margin-bottom: -10px;
+  
+}        
+
+.ParallaxVideo h1 {
+  color: #0F1A25;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+.container {
+  max-width: 1200px; 
+  padding: 15px;
+  color: #ffffff;
+  position: relative;
+  z-index: 11;
+}
+
+.col-sm-6, .col-sm-12 {
+ background-color: black;
+}
+
+.col-sm-12 {
+  text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+  background-color: #0F1A25;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 12; 
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+}
+a:hover, a:active {
+  color: #ffcc00;
+  font-size: 11pt;
+        }
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Lora', cursive;
+}
+        
+h3, h2 {
+  font-family: 'Lora', cursive;
+  
+  
+  text-align: center;
+  background: transparent;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media only screen and (max-width:1600px) {
+  body {
+    background-size: 1850px 1750px;
+  }
+
+}
+
+.y img {
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+	
+  }
+  table {
+    width: 100%;
+  }
+  .ParallaxImage {
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width:775px) {
+  .header-links {
+    width: 80%;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+	
+  }
+  body {
+    background-size: 1850px 1750px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .header-links, .container, .col-sm-3 img {
+  width: 100%;
+  max-width: 200%;
+  
+}
+ body {
+   background-position: -650px -0px;
+   background-size: 2500px 3300px;
+   
+  }
+  .ParallaxVideo {
+    padding-top: 120px;
+  }
+}
+
+video {
+width: 100%;
+height: auto;
+}
+</style>
+<body>
+<header>
+  <div class="row">
+    <div class="col-xl-">
+    <img class="hogwarts-text-1" src="hogwartslogo.png" height="50" width="70" alt="">
+    <img class="hogwarts-text-1" src="hogwartstext-1.png" height="50" width="100" alt="">
+    <img class="hogwarts-text-2" src="hogwartstext-2.png" height="50" width="70" alt="">
+	<img class="hogwarts-text-2" src="hogwartstext-3.png" height="50" width="23" alt="">
+	<img class="hogwarts-text-2" src="hogwartstext-4.png" height="50" width="110" alt="">
+	<img class="hogwarts-text-2" src="hogwartstext-5.png" height="50" width="40" alt="">
+	<img class="hogwarts-text-2" src="hogwartstext-6.png" height="50" width="100" alt="">
+    </div>
+</div>
+    <nav class="header-links navbar-expand-sm">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a href="Home.html">Home</a></li>
+        <li class="nav-item"><a href="About.html">About</a></li>
+        <li class="nav-item"><a href="Academics.html">Academics</a></li>
+        <li class="nav-item"><a href="Extra-Curriculars.html">Extra-Curriculars</a></li>
+        <li class="nav-item"><a href="Contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="ParallaxImage bg1">
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+    <source src="bg1.mp4" type="video/mp4">
+</video>
+<div class="ParallaxImage bg3">
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row center">
+<div class="col-sm-6">
+    <div class="x">
+        <img src="Your_Legacy.png" alt="">
+            <h6>
+                <br><strong>Welcome to Hogwarts School of Witchcraft and Wizardry. Established in the 10th Century, Hogwarts is considered to be one of the finest magical institutions in the wizarding world taking students from the United Kingdom and Ireland
+                </strong></h6>
+			<h6>
+                <strong>Discover the mysteries of the wizarding world. Learn spells, brew potions, grow plants, and tend to magical beasts along your journey. Get sorted into your House, forge relationships, and master skills to become the witch or wizard you want to be.
+            <br></strong>
+			<br>
+      </h6>
+    </div>
+</div>
+<div class="col-sm-6">
+        <video width="500" height="650" controls autoplay muted>
+            <source src="hogwartsvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+<div class="row center">
+  <div class="col-sm-12">
+    <div class="x">
+      <a href="Contacts.html"><img src="button.png" alt=""></a>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
